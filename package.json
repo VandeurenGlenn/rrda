@@ -1,0 +1,34 @@
+{
+  "name": "rrda",
+  "version": "1.0.0",
+  "description": "RaspberryPi Relay Dimming Api",
+  "main": "rrda.js",
+  "module": "src/rrda.js",
+  "scripts": {
+    "compile": "rollup -c",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vandeurenglenn/rrda.git"
+  },
+  "keywords": [
+    "raspberry",
+    "relay",
+    "dim",
+    "api",
+    "rpi"
+  ],
+  "author": "Glenn Vandeuren <vandeurenglenn@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vandeurenglenn/rrda/issues"
+  },
+  "homepage": "https://github.com/vandeurenglenn/rrda#readme",
+  "dependencies": {
+    "onoff": "^4.1.0"
+  },
+  "devDependencies": {
+    "rollup": "^1.5.0"
+  }
+}
